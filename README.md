@@ -198,3 +198,9 @@ then, in root projcet run:
 `python script\image-detection.py`                      # for image detection
 
 `python script\realtime-detection.py`                   # for realtime (webcam or video) detection
+
+
+
+
+
+Hope you enjoy it! :grin:
