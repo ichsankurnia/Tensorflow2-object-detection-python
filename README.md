@@ -124,6 +124,10 @@ adjust config in script\update-pipline-config.py then run `python script\update-
 
 `cd mymodels\train && tensorboard --logdir=.`
 
+![Image 1](https://github.com/ichsankurnia/Tensorflow2-object-detection-python/tree/main/readme/1.png?raw=true)
+![Image 2](https://github.com/ichsankurnia/Tensorflow2-object-detection-python/tree/main/readme/2.png?raw=true)
+![Training Loss](https://github.com/ichsankurnia/Tensorflow2-object-detection-python/tree/main/readme/3.png?raw=true)
+
 
 
 ### ISSUE in opencv-python
