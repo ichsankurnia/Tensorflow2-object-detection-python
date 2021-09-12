@@ -203,4 +203,6 @@ then, in root projcet run:
 
 
 
-Hope you enjoy it! :grin:
+<p align="center">
+    Hope you enjoy it! :grin:
+</p>
