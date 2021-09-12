@@ -105,7 +105,9 @@ copy pipeline.config in zoo model to mymodels
 
 ### Update Config For Transfer Learning
 
-adjust pipline.config in mymodels (num_class, batch_size, fine_tune_checkpoint, fine_tune_checkpoint_type="detection" label_map_path, input_path) or :
+adjust pipline.config in mymodels (num_class, batch_size, fine_tune_checkpoint, fine_tune_checkpoint_type="detection" label_map_path, input_path) 
+
+or :
 
 adjust config in script\update-pipline-config.py then run `python script\update-pipline-config.py`
 
@@ -119,6 +121,7 @@ adjust config in script\update-pipline-config.py then run `python script\update-
 ## --> EVALUATE MODEL
 
 `python models\research\object_detection\model_main_tf2.py --model_dir=mymodels --pipeline_config_path=mymodels\pipeline.config --checkpoint_dir=mymodels`
+
 `cd mymodels\train && tensorboard --logdir=.`
 
 
@@ -186,7 +189,7 @@ then, in root projcet run:
 
 
 
-## --> TEST DETECTION FROM EXPORTED MODEL
+## --> TEST DETECTION FROM EXPORTED MODEL <--
 
 `python script\image-detection.py`                      # for image detection
 
