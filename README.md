@@ -35,7 +35,7 @@ collect image, store to images folder, 20% for folder test and 80% for folder tr
 
 
 
-## Setup Project
+## SETUP PROJECT
 
 `mkdir Project`
 
@@ -118,7 +118,7 @@ adjust config in script\update-pipline-config.py then run `python script\update-
 
 
 
-## --> EVALUATE MODEL
+## EVALUATE MODEL
 
 `python models\research\object_detection\model_main_tf2.py --model_dir=mymodels --pipeline_config_path=mymodels\pipeline.config --checkpoint_dir=mymodels`
 
@@ -149,7 +149,7 @@ adjust config in script\update-pipline-config.py then run `python script\update-
 
 
 
-## Freezing the Graph
+## FREEZING THE GRAPH
 
 `cd mymodels && mkdir export`
 
@@ -169,7 +169,7 @@ then, in root projcet run:
 
 
 
-## Export TO TFJS USE FOR WEB APP
+## EXPORT TO TFJS USE FOR WEB APP
 
 `pip install tensorflowjs`
 
@@ -181,7 +181,7 @@ then, in root projcet run:
 
 
 
-## CONVERTION TO TFLITE USE FOR MOBILE OR RASPY
+## CONVERSION TO TFLITE USE FOR MOBILE OR RASPY
 
 `cd mymodels && mkdir tfliteexport`
 
