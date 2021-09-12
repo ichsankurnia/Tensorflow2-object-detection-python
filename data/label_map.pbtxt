@@ -1,0 +1,8 @@
+item { 
+	name:'car'
+	id:1
+}
+item { 
+	name:'handphone'
+	id:2
+}
