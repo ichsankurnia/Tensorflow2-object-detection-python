@@ -141,7 +141,7 @@ adjust config in script\update-pipline-config.py then run `python script\update-
 
 
 
-## --> TEST DETECTION with Load Train Model From Checkpoint
+## --> TEST DETECTION with Load Train Model From Checkpoint <--
 
 `python script\ckpt-detect-img-cv2.py`
 
